@@ -1,4 +1,5 @@
 import 'normalize.css';
+import './vendor/fonts.css';
 import ReactDOM from 'react-dom/client';
 import App from './components/app/app';
 import {Provider} from "react-redux";
