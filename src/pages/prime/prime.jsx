@@ -4,14 +4,14 @@ import RecipeTypes from "../../components/recipe-types/recipe-types";
 
 const Prime = () => {
   return (
-    <div className="prime">
+    <section className="prime">
       <img
         src={banner}
         alt="Баннер со слоганом и корзиной фруктов"
         className="prime__banner"
       />
       <RecipeTypes/>
-    </div>
+    </section>
   );
 };
 

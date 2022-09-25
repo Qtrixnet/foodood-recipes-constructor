@@ -4,7 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Prime from "../../pages/main/prime";
+import Prime from "../../pages/prime/prime";
+import About from "../../pages/about/about";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <main className="app__main">
           <Routes>
             <Route path="/" element={<Prime />} />
+            <Route path="about" element={<About />} />
           </Routes>
         </main>
       </div>
