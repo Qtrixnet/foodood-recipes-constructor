@@ -1,0 +1,9 @@
+.prime {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  &__banner {
+    width: 100%;
+  }
+}
