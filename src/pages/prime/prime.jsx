@@ -1,6 +1,7 @@
 import './prime.scss';
 import banner from '../../assets/images/banner.jpg';
 import RecipeTypes from "../../components/recipe-types/recipe-types";
+import RecipesList from "../../components/recipes-list/recipes-list";
 
 const Prime = () => {
   return (
@@ -11,6 +12,7 @@ const Prime = () => {
         className="prime__banner"
       />
       <RecipeTypes/>
+      <RecipesList />
     </section>
   );
 };
