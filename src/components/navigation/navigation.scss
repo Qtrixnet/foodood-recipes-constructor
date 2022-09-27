@@ -20,9 +20,13 @@
     transition: border .2s ease, color .2s ease;
     color: $text-secondary;
 
-    &.active {
+    &_active {
       border-bottom-color: $primary;
       color: $text-primary;
+    }
+
+    &:hover {
+      color: $primary
     }
   }
 }

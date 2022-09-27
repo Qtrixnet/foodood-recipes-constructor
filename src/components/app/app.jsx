@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Prime from "../../pages/prime/prime";
 import About from "../../pages/about/about";
+import Constructor from "../../pages/constructor/constructor";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Prime />} />
             <Route path="about" element={<About />} />
+            <Route path="constructor" element={<Constructor />} />
           </Routes>
         </main>
       </div>

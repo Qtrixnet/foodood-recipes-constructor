@@ -1,0 +1,57 @@
+@import '../../root-styles/variables';
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+  }
+
+  &__list-item {
+    background-color: $background;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 200px;
+    width: 100%;
+    user-select: none;
+
+    &:hover {
+      cursor: pointer;
+
+      & .ingredients-list__button {
+        background-color: $primary;
+        background-image: url("../../assets/images/increment-white.svg");
+      }
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__button {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-color: $background-accent;
+    border-radius: 50%;
+    background-image: url("../../assets/images/increment-green.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+    transition: background .2s ease;
+    border: 0;
+    pointer-events: none;
+  }
+}
