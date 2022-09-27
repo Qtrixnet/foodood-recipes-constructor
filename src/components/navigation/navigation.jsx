@@ -7,16 +7,17 @@ const Navigation = () => {
       <ul className="navigation__list">
         <li className="navigation__list-item">
           <NavLink
+            end
             to="/"
-            className="navigation__link"
+            className={({ isActive }) => isActive ? 'navigation__link navigation__link_active' : 'navigation__link' }
           >
             Рецепты
           </NavLink>
         </li>
         <li className="navigation__list-item">
           <NavLink
-            to="recipes-constructor"
-            className="navigation__link"
+            to="constructor"
+            className={({ isActive }) => isActive ? 'navigation__link navigation__link_active' : 'navigation__link' }
           >
             Конструктор
           </NavLink>
@@ -24,7 +25,7 @@ const Navigation = () => {
         <li className="navigation__list-item">
           <NavLink
             to="about"
-            className="navigation__link"
+            className={({ isActive }) => isActive ? 'navigation__link navigation__link_active' : 'navigation__link' }
           >
             О нас
           </NavLink>
