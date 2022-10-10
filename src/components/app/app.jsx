@@ -7,6 +7,7 @@ import {
 import Prime from "../../pages/prime/prime";
 import About from "../../pages/about/about";
 import Constructor from "../../pages/constructor/constructor";
+import RecipeScreen from "../recipe-screen/recipe-screen";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Prime />} />
             <Route path="about" element={<About />} />
             <Route path="constructor" element={<Constructor />} />
+            <Route path="/:id" element={<RecipeScreen />} />
           </Routes>
         </main>
       </div>

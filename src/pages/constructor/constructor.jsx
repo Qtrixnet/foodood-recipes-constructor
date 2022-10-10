@@ -7,7 +7,7 @@ const Constructor = () => {
   return (
     <section className="constructor">
       <IngredientsList/>
-      <IngredientsConstructor />
+      <IngredientsStub />
     </section>
   );
 };

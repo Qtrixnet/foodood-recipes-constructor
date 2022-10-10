@@ -18,6 +18,42 @@ const IngredientsList = () => {
           <button className="ingredients-list__button"/>
           <span className="ingredients-list__text">Наименование ингридиента</span>
         </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
+        <li className="ingredients-list__list-item">
+          <button className="ingredients-list__button"/>
+          <span className="ingredients-list__text">Наименование ингридиента</span>
+        </li>
       </ul>
     </section>
   );
